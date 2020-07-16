@@ -3,6 +3,7 @@ import React from "react";
 
 const Card = (props) => {
 const {date, explanation, image, title} = props
+console.log(date)
 
     return(
         <div className='card-container'>
